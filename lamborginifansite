@@ -1,0 +1,73 @@
+<html lang="ru">
+	<head>
+	<link rel = "stylesheet" href = "style.css">
+	<div id = "bg"></div>
+	<style>
+		h1 {color:red;
+			font-size:40pt;
+			font-variant:small-caps}
+	</style>
+		<title>Lamborgini.ru фан-сервис</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Lamborgini.ru - это фан-сервис оффициального сайта Lamborgini">
+		<meta name="keywords" content="lamborgini, ламборгини, сообщество, фан">
+	</head>
+	<body>
+	<h1><em>Lamborgini.ru</em></h1>
+	<p align="center">Оффициальный фан-серфис сайт автомобиля <strong>Lamborgini</strong>. Здесь представлены модели автомобиля марки Lamborgini.</p>
+	<h1></h1>
+	<p align="center">При нажатии на любой из них, откроется страница с фото этой модели и краткой информацией о ней.</p>
+
+
+	<h3>Lamborgini Huracan</h3>
+	<a href="ламборгини хуракан.html">
+		<img src="https://get.wallhere.com/photo/car-vehicle-Lamborghini-sports-car-Lamborghini-Huracan-performance-car-xXx-Performance-wheel-supercar-land-vehicle-automotive-design-automobile-make-luxury-vehicle-bumper-83089.jpg" alt="lamba"
+	style="width:150px;height:100px;border:0;">
+	</a>
+
+
+	<h3>Lamborgini Diablo</h3>
+	<a href="ламборгини диабло.html">
+		<img src="https://klaxonnew.ru/wp-content/uploads/2021/08/Lamborghini-Diablo7.jpg" alt="lamba"
+	style="width:150px;height:100px;border:0;">
+	</a>
+	</body>
+
+
+	<h3>Lamborgini Urus</h3>
+	<a href="ламборгини урус.html">
+		<img src="https://carsweek.ru/upload/medialibrary/ee7/ee717c434ba12fc7257c0cea3e37a5a7.jpg" alt="lamba"
+	style="width:150px;height:100px;border:0;">
+	</a>
+
+	<h1></h1>
+	<hr>
+	<h1></h1>
+	<form method="post" action="/login/">
+    <table>
+        <tr>
+            <td><label for="loginField">Логин</label></td>
+            <td><input id="loginField" type="text" name="login"></td>
+        </tr>
+        <tr>
+            <td><label for="passwordField">Пароль</label></td>
+            <td><input id="passwordField" type="password" name="password"></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center"><input type="submit" value="Войти"></td>
+        </tr>
+    </table>
+</form>
+<hr>
+<body>
+<form method="post" action="/im/">
+    <label for="nameField">Имя</label><br>
+    <input type="text" id="nameField" size="30" name="name">
+    <br>
+    <label for="messageField">Сообщение</label><br>
+    <textarea name="message" id="messageField" cols="50" rows="10"></textarea>
+    <br>
+    <input type="submit" value="Отправить сообщение">
+</form>
+</body>
+</html>
